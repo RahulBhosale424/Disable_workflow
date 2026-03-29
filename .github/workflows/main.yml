@@ -1,14 +1,13 @@
-name: disable workflow
+name: disable_workflow
 
 on:
- push:
+  push:
     branches: [main]
 
 jobs:
-    disable:
-          runs-on: ubuntu-latest
+  disable:
+    runs-on: ubuntu-latest
 
-       steps:
-          - name: Disable
-            run: echo "Disable workflow disable"
-
+    steps:
+      - name: Disable
+        run: echo "Disable workflow disable"
