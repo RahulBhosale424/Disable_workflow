@@ -8,6 +8,7 @@ jobs:
     disable:
           runs-on: ubuntu-latest
 
-steps:
-   - name: Disable
-     run: echo "Disable workflow disable"
+       steps:
+          - name: Disable
+            run: echo "Disable workflow disable"
+
